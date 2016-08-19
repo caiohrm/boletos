@@ -1,0 +1,19 @@
+﻿# Baseado na documentação do banrisulconstante:
+  pos: [1, 1]
+  picture: '9(01)'
+  default:  '9'
+
+brancos01:
+  pos: [2, 27]
+  picture: 'X(25)'
+  default:  ''total:
+  pos: [28, 40]
+  picture: 'X(12)'
+  default:  ''
+
+brancos2:
+  pos: [41, 394]
+  picture: 'X(353)'
+  default:  ''numero_sequencial:
+  pos: [395, 400]
+  picture: '9(06)'

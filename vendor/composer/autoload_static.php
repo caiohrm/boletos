@@ -6,6 +6,24 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit0dd1eb366fad5240c7c7a47320d7fdc2
 {
+    public static $files = array (
+        '04c6c5c2f7095ccf6c481d3e53e1776f' => __DIR__ . '/..' . '/mustangostang/spyc/Spyc.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'C' => 
+        array (
+            'Cnab\\' => 5,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Cnab\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/andersondanilo/cnab_php/src/Cnab',
+        ),
+    );
+
     public static $prefixesPsr0 = array (
         'o' => 
         array (
@@ -26,6 +44,8 @@ class ComposerStaticInit0dd1eb366fad5240c7c7a47320d7fdc2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0dd1eb366fad5240c7c7a47320d7fdc2::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0dd1eb366fad5240c7c7a47320d7fdc2::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit0dd1eb366fad5240c7c7a47320d7fdc2::$prefixesPsr0;
 
         }, null, ClassLoader::class);

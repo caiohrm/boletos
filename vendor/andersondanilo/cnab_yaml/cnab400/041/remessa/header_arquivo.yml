@@ -1,0 +1,63 @@
+constante:
+  pos: [1, 9]
+  picture: 'X(9)' default: '01REMESSA'
+
+
+brancos_1:
+    pos: [10, 26]
+    picture: 'X(17)'
+
+
+
+codigo_banco:
+    pos: [27, 39]
+    picture: 'X(13)'
+
+
+
+brancos_2:
+    pos: [40, 46]
+    picture: 'X(7)'
+
+
+nome_empresa:
+    pos: [47, 76]
+    picture: 'X(30)'
+
+constante_2:
+    pos: [77, 87]
+    picture: 'X(11)'
+
+brancos_3:
+    pos: [88, 94]
+    picture: 'X(7)'
+
+data_gravacao:
+    pos: [95, 100]
+    picture: 'X(6)' 
+brancos_4:
+    pos: [101, 109]
+    picture: 'X(9)'
+
+codigo_servico:
+    pos: [110, 113]
+    picture: 'X(4)'
+
+brancos_5:
+    pos: [114, 114]
+    picture: 'X(1)'
+tipo_proces:
+    pos: [115, 115]
+    picture: 'X(1)'
+brancos_6:
+    pos: [116, 116]
+    picture: 'X(1)'
+codigo_cliente:
+    pos: [117, 126]
+    picture: 'X(10)'
+brancos_7:
+    pos: [127, 394]
+    picture: 'X(268)'
+constante_1:
+    pos: [395, 400]
+    picture: 'X(6)'

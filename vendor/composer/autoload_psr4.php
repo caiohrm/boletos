@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Cnab\\' => array($vendorDir . '/andersondanilo/cnab_php/src/Cnab'),
 );

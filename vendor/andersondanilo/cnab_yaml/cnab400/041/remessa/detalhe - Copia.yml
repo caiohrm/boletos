@@ -1,0 +1,130 @@
+﻿# Baseado na documentação do banrisul
+constante:
+  pos: [1, 1]
+  picture: '9(01)'
+  default:  '1'brancos:
+  pos: [2, 17]
+  picture: 'X(15)'
+  default:  ''cedente:
+  pos: [18, 30]
+  picture: '9(4)'
+  default:  '0000'brancos2:
+  pos: [31, 37]
+  picture: 'X(07)'
+  default:  ''ident_titulo:
+  pos: [38, 62]
+  picture: 'X(24)'
+  default:  ''nosso_numero:
+  pos: [63, 72]
+  picture: '9(09)'
+  default:  '0'mensagem:
+  pos: [73, 104]
+  picture: 'X(31)'
+  default:  ''brancos3:
+  pos: [105, 107]
+  picture: 'X(02)'
+  default:  ''carteira:
+  pos: [108, 108]
+  picture: 'X(01)'
+  default:  '1'ocorrencia:
+  pos: [109, 110]
+  picture: 'X(02)'
+  default:  '01'seu_numero:
+  pos: [111, 120]
+  picture: 'X(09)'
+  default:  ''vencimento:
+  pos: [120, 126]
+  picture: 'X(06)'
+ date_format: '%d%m%Y'valor:
+  pos: [127, 139]
+  picture: '9(8)V9(4)'
+constante2:
+  pos: [140, 142]
+  picture: '9(2)' default: '041'brancos4:
+  pos: [143, 147]
+  picture: 'X(04)'
+  default:  ''tipo:
+  pos: [148, 149]
+  picture: 'X(02)'
+  default:  '08'aceite:
+  pos: [150, 150]
+  picture: 'X(01)'
+  default:  'A'emissao:
+  pos: [151, 156]
+  picture: 'X(05)'
+  date_format: '%d%m%Y'instrucao1:
+  pos: [157, 158]
+  picture: 'X(02)'
+  default:  '23'instrucao2:
+  pos: [159, 160]
+  picture: 'X(02)'
+  default:  '23'mora:
+  pos: [161, 161]
+  picture: 'X(01)'
+  default:  ''juros:
+  pos: [162, 173]
+  picture: 'X(11)'
+  default:  ''desconto:
+  pos: [174, 179]
+  picture: 'X(05)'
+  default:  ''valordesc:
+  pos: [180, 192]
+  picture: 'X(12)'
+  default:  ''iof:
+  pos: [193, 205]
+  picture: 'X(12)'
+  default:  ''abatimento:
+  pos: [206, 218]
+  picture: 'X(12)'
+  default:  ''tipoinsc:
+  pos: [219, 220]
+  picture: 'X(02)'
+  default:  '01'inscricao:
+  pos: [221, 234]
+  picture: 'X(13)'
+  default:  ''nome:
+  pos: [235, 269]
+  picture: 'X(34)'
+  default:  ''brancos5:
+  pos: [270, 274]
+  picture: 'X(04)'
+  default:  ''endereco:
+  pos: [275, 314]
+  picture: 'X(39)'
+  default:  ''brancos6:
+  pos: [322, 324]
+  picture: 'X(02)'
+  default:  ''taxamulta:
+  pos: [322, 324]
+  picture: 'X(02)'
+  default:  ''diasmulta:
+  pos: [325, 326]
+  picture: 'X(02)'
+  default:  ''cep:
+  pos: [327, 334]
+  picture: 'X(07)'
+  default:  ''cidade:
+  pos: [335, 349]
+  picture: 'X(14)'
+  default:  ''uf:
+  pos: [350, 351]
+  picture: 'X(02)'
+  default:  ''antecipado:
+  pos: [352, 355]
+  picture: 'X(03)'
+  default:  ''brancos7:
+  pos: [356, 356]
+  picture: 'X(01)'
+  default:  ''valdesconto:
+  pos: [357, 369]
+  picture: 'X(12)'
+  default:  ''protesto:
+  pos: [370, 371]
+  picture: 'X(02)'
+  default:  ''brancos8:
+  pos: [372, 394]
+  picture: 'X(03)'
+  default:  ''sequencia:
+  pos: [395, 400]
+  picture: 'X(05)'
+  default:  ''
